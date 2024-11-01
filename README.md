@@ -1,22 +1,18 @@
 # Java Game
 AP 2022 final project
 # Usage
-Run
+First clone the project. It might take a while becuase of the images.
 ```
-"C:\Program Files\Java\jdk-17.0.2\bin\java.exe" 
---module-path C:\Users\Asus\Documents\javafx-sdk-18.0.1\lib 
---add-modules javafx.controls,javafx.fxml 
---add-modules javafx.controls,javafx.media 
-"-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\lib\idea_rt.jar=1617:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.3\bin" 
--Dfile.encoding=UTF-8 
--classpath 
-C:\Users\Asus\IdeaProjects\gameProjectTest\out\production\gameProjectTest;
-C:\Users\Asus\Documents\javafx-sdk-18.0.1\lib\javafx-swt.jar;
-C:\Users\Asus\Documents\javafx-sdk-18.0.1\lib\javafx.web.jar;
-C:\Users\Asus\Documents\javafx-sdk-18.0.1\lib\javafx.base.jar;
-C:\Users\Asus\Documents\javafx-sdk-18.0.1\lib\javafx.fxml.jar;
-C:\Users\Asus\Documents\javafx-sdk-18.0.1\lib\javafx.media.jar;
-C:\Users\Asus\Documents\javafx-sdk-18.0.1\lib\javafx.swing.jar;
-C:\Users\Asus\Documents\javafx-sdk-18.0.1\lib\javafx.controls.jar;
-C:\Users\Asus\Documents\javafx-sdk-18.0.1\lib\javafx.graphics.jar pkg.Main
+git clone https://github.com/PouyaRahimpour/AdvancedProgramming-game
 ```
+Then run
+
+```
+javac --module-path $PATH_TO_FX --add-modules javafx.controls,javafx.fxml --add-modules javafx.controls,javafx.media src/pkg/Main.java src/pkg/Castle.java src/pkg/Controller.java src/pkg/Drag.java src/Heroes/Hero.java src/Heroes/Elf_01.java src/Heroes/Elf_02.java src/Heroes/Elf_03.java src/Heroes/Fairy_01.java src/Heroes/Fairy_02.java src/Heroes/Fairy_03.java src/Heroes/Knight_01.java src/Heroes/Knight_02.java src/Heroes/Knight_03.java src/Heroes/Warrior_01.java src/Heroes/Warrior_02.java src/Heroes/Warrior_03.java
+java --module-path $PATH_TO_FX --add-modules javafx.controls,javafx.fxml --add-modules javafx.controls,javafx.media -classpath ./src pkg.Main
+```
+<!---
+```
+$PATH_TO_FX\javafx-swt.jar:$PATH_TO_FX\javafx.web.jar:$PATH_TO_FX\javafx.base.jar:$PATH_TO_FX\javafx.fxml.jar:$PATH_TO_FX\javafx.media.jar:$PATH_TO_FX\javafx.swing.jar:$PATH_TO_FX\javafx.controls.jar:$PATH_TO_FX\javafx.graphics.jar src.pkg.Main
+```
+--->
