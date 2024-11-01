@@ -1,3 +1,8 @@
+# Java Game
+AP 2022 final project
+# Usage
+Run
+```
 "C:\Program Files\Java\jdk-17.0.2\bin\java.exe" 
 --module-path C:\Users\Asus\Documents\javafx-sdk-18.0.1\lib 
 --add-modules javafx.controls,javafx.fxml 
@@ -14,3 +19,4 @@ C:\Users\Asus\Documents\javafx-sdk-18.0.1\lib\javafx.media.jar;
 C:\Users\Asus\Documents\javafx-sdk-18.0.1\lib\javafx.swing.jar;
 C:\Users\Asus\Documents\javafx-sdk-18.0.1\lib\javafx.controls.jar;
 C:\Users\Asus\Documents\javafx-sdk-18.0.1\lib\javafx.graphics.jar pkg.Main
+```
