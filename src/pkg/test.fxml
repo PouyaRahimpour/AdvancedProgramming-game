@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane prefHeight="800.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pkg.Controller">
+   <children>
+<!--      <Button layoutX="201.0" layoutY="158.0" mnemonicParsing="false" onAction="#createHero2" text="createHero2" />-->
+<!--      <Button layoutX="88.0" layoutY="158.0" mnemonicParsing="false" onAction="#createHero1" text="createHero1" />-->
+<!--      <Button layoutX="327.0" layoutY="158.0" mnemonicParsing="false" onAction="#createHero3" text="createHero3" />-->
+<!--      <Button layoutX="449.0" layoutY="158.0" mnemonicParsing="false" onAction="#createHero4" text="createHero4" />-->
+<!--      <Button layoutX="569.0" layoutY="158.0" mnemonicParsing="false" onAction="#createHero5" text="createHero5" />-->
+<!--      <Button layoutX="700.0" layoutY="158.0" mnemonicParsing="false" onAction="#createHero6" text="createHero6" />-->
+<!--      <Button layoutX="843.0" layoutY="158.0" mnemonicParsing="false" onAction="#createHero7" text="createHero7" />-->
+<!--      <Button layoutX="978.0" layoutY="158.0" mnemonicParsing="false" onAction="#createHero8" text="createHero8" />-->
+   </children>
+</Pane>
